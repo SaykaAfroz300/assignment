@@ -1,0 +1,454 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+
+}
+
+
+
+nav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 70px;
+
+    border-bottom: 1px solid rgb(45, 45, 45);
+
+}
+
+
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+
+.logo img {
+
+    width: 80px;
+
+    height: 30px;
+
+}
+
+.logo h2 {
+
+    color: black;
+
+    font-size: 24px;
+
+}
+
+nav ul {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 40px;
+
+}
+
+
+nav ul li a {
+
+    color: black;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+}
+
+
+
+nav ul li a:hover {
+
+    color: #2D7BFF;
+
+}
+
+
+.btn {
+
+    background: #0441f5;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+}
+
+
+.btn:hover {
+
+    background: #1d4ed8;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+    height: 90vh;
+
+    background-image: url("images/banner.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.hero-content {
+
+    color: white;
+
+    width: 60%;
+
+}
+
+.hero h1 span {
+
+    font-style: italic;
+
+}
+
+.hero p {
+
+    font-size: 20px;
+
+    line-height: 1.6;
+
+    margin-bottom: 40px;
+
+}
+
+.hero-btn {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: white;
+
+    background: #2563eb;
+
+    padding: 18px 40px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+}
+
+.hero-btn:hover {
+
+    background: #1d4ed8;
+
+}
+
+.speakers {
+
+    padding: 80px 0;
+
+    background: #ffffff;
+
+}
+
+.container {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+.section-title {
+
+    text-align: center;
+
+    font-size: 48px;
+
+    color: #111827;
+
+    margin-bottom: 60px;
+
+}
+
+.speaker-grid {
+
+    display: grid;
+
+}
+
+.speaker-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+}
+
+.speaker-card {
+
+    background: white;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+.speaker-card img {
+
+    width: 100%;
+
+    height: 260px;
+
+    object-fit: cover;
+
+}
+
+.speaker-info {
+
+    padding: 20px;
+
+}
+
+.speaker-info h5 {
+
+    color: #2563eb;
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+
+}
+
+.speaker-info h3 {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+}
+
+.speaker-info p {
+
+    color: gray;
+
+    font-size: 15px;
+
+}
+
+.pricing {
+
+    padding: 80px 0;
+
+    background: #f8fafc;
+
+}
+
+.section-description {
+
+    width: 60%;
+
+    margin: 0 auto 60px;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    color: #6b7280;
+
+    line-height: 1.8;
+
+}
+
+.pricing-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+}
+
+.pricing-card {
+
+    background: white;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 12px;
+
+    padding: 35px;
+
+}
+
+.plan-name {
+
+    color: #2563eb;
+
+    font-size: 18px;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+}
+
+.price {
+
+    font-size: 48px;
+
+    margin-bottom: 30px;
+
+    color: #111827;
+
+}
+
+.plan-features {
+
+    list-style: none;
+
+    margin-bottom: 35px;
+
+}
+
+.plan-features li {
+
+    margin-bottom: 15px;
+
+    color: #4b5563;
+
+    font-size: 16px;
+
+}
+
+.pricing-btn {
+
+    display: block;
+
+    text-align: center;
+
+    background: white;
+
+    color: blue;
+
+    text-decoration: none;
+
+    padding: 15px;
+
+    border-radius: 8px;
+    border: 2px solid blue;
+
+}
+
+.pricing-btn:hover {
+
+    background: #1d4ed8;
+
+}
+
+.featured {
+
+    background: #111827;
+
+    color: white;
+
+    transform: scale(1.05);
+
+}
+
+.featured .price {
+
+    color: white;
+
+}
+
+.featured .plan-features li {
+
+    color: #d1d5db;
+
+}
+
+.featured .plan-name {
+
+    color: #60a5fa;
+
+}
+
+.outline-btn {
+
+    background: white;
+
+    color: #111827;
+
+    border: 2px solid #111827;
+
+}
+
+.outline-btn:hover {
+
+    background: #111827;
+
+    color: white;
+
+}
+
+.pricing-card {
+
+    transition: 0.3s;
+}
+
+.pricing-card:hover {
+
+    transform: translateY(-8px);
+}
