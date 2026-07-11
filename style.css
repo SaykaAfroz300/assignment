@@ -514,23 +514,14 @@ nav ul li a:hover {
 .hackathon-btn {
 
     display: block;
-
     width: 280px;
-
     margin: auto;
-
     text-align: center;
-
     background: #d599e4;
-
     color: white;
-
     text-decoration: none;
-
     padding: 18px;
-
     border-radius: 10px;
-
     font-weight: bold;
 
 }
@@ -538,5 +529,60 @@ nav ul li a:hover {
 .hackathon-btn:hover {
 
     background: #1d4ed8;
+
+}
+
+.footer {
+
+    background: #08225c;
+    color: white;
+    padding: 50px 0 20px;
+    margin-top: 120px;
+
+}
+
+.footer-content {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.footer-logo {
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+.footer-links {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+.footer-links a {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+
+}
+
+.footer-links a:hover {
+
+    color: #2563eb;
 
 }
