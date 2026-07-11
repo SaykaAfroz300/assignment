@@ -22,7 +22,6 @@ nav {
     justify-content: space-between;
 
     align-items: center;
-
     padding: 18px 70px;
 
     border-bottom: 1px solid rgb(45, 45, 45);
@@ -34,9 +33,7 @@ nav {
 .logo {
 
     display: flex;
-
     align-items: center;
-
     gap: 10px;
 
 }
@@ -54,7 +51,6 @@ nav {
 .logo h2 {
 
     color: black;
-
     font-size: 24px;
 
 }
@@ -62,7 +58,6 @@ nav {
 nav ul {
 
     display: flex;
-
     list-style: none;
 
     gap: 40px;
@@ -71,9 +66,7 @@ nav ul {
 
 
 nav ul li a {
-
     color: black;
-
     text-decoration: none;
 
     font-size: 17px;
@@ -92,11 +85,9 @@ nav ul li a:hover {
 .btn {
 
     background: #0441f5;
-
     color: white;
 
     text-decoration: none;
-
     padding: 15px 30px;
 
     border-radius: 10px;
@@ -119,7 +110,6 @@ nav ul li a:hover {
     height: 90vh;
 
     background-image: url("images/banner.jpg");
-
     background-size: cover;
 
     background-position: center;
@@ -139,7 +129,6 @@ nav ul li a:hover {
 .hero-content {
 
     color: white;
-
     width: 60%;
 
 }
@@ -155,7 +144,6 @@ nav ul li a:hover {
     font-size: 20px;
 
     line-height: 1.6;
-
     margin-bottom: 40px;
 
 }
@@ -163,12 +151,10 @@ nav ul li a:hover {
 .hero-btn {
 
     display: inline-block;
-
     text-decoration: none;
-
     color: white;
-
     background: #2563eb;
+    margin-top: 350px;
 
     padding: 18px 40px;
 
